@@ -1,27 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: Inter;
+}
+
+.hero-section {
+  background-image: url("/mid.jpg");
+  background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+}
+.navbar {
+  background-image: url("/mid.jpg");
+  display: flex;
+  justify-content: space-between;
+}
+.bgw{
+  background-color: #ffffff;
+}
+.black{
+  columns: #000000;
+  font-weight: bolder;
+
+}
+.blue{
+  color: #023160;
+  font-weight: bolder;
+}
+.Historysec{
+  background-image: url("/Histo.jpg");
+  background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+.sblue{
+  color: #ffffff;
+}
+.bgblue{
+  background-color: #023160;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bres{
+  @media (min-width: 640px) {
+    .sm\:hidden {
+        display: none;
+    }
+}
+}
+
+.wsmoke{
+  color: rgba(34, 38, 69, 0.406);
+}
+.History{
+  color: rgba(34, 38, 69, 0.62);
+}
+.Climbsec{
+  background-image: url("/mountains.jpg");
+  background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+}
+.bgbluec{
+  background-color: #242f3f;
+}
+.History2{
+  color: #242f3f;
+}
+.activebg{
+  background-color: #a0abbd;
+  color: #242f3f;
+  font-weight: bolder;
+  margin-right: 1vw; 
+height: 4vh;
+padding: 1vh 1vw;
+text-decoration: underline;
+}
+.nonbg{
+  color: #242f3f;
+  font-weight: bolder;
+  margin-right: 1vw; 
+height: 4vh;
+padding: 1vh 1vw;
+text-decoration: underline;
+}
+.flexBetween {
+  @apply flex items-center justify-between;
+}
+.heromodal{
+  background-color: #242f3f;
+}
+.mtcl{
+ color: #242f3f;
+}
+.bg-silver-opacity {
+  background-color: rgba(192, 192, 192, 0.5); /* Adjust the RGBA values and opacity as needed */
+}
+.nona{
+  color: #a0abbd;
+  margin: 1vh 1vw 1vh 1vw;
 }
