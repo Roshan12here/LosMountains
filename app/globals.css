@@ -41,7 +41,7 @@ body {
   font-weight: bolder;
 }
 .Historysec{
-  background-image: url("/Histo.jpg");
+  background-image: url("/histo.jpg");
   background-size: cover;
  background-position: center;
  display: flex;
