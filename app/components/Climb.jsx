@@ -10,7 +10,7 @@ const Climb = () => {
 <h1 className='nona underl'>MOUNTAIN2</h1>
         </div>
          </div>
-         <div  className="relative top-40 ml-[16vw] z-20 w-[80vw] sm:w-[80vw] md:w-[40vw] lg:w-[54vw] xl:w-[24vw] 2xl:w-[22vw] h-[34vh] sm:h-[34vh] md:h-[24vh] lg:h-[34vh] xl:h-[24vh] 2xl:h-[28vh] heromodal flex flex-col gap-8 rounded-lg bg-green-90 px-7 py-8 bg-silver-opacity">
+         <div  className="relative top-40 ml-[16vw] z-20 w-[80vw] sm:w-[80vw] md:w-[40vw] lg:w-[34vw] xl:w-[24vw] 2xl:w-[22vw] h-[34vh] sm:h-[34vh] md:h-[24vh] lg:h-[24vh] xl:h-[28vh] 2xl:h-[24vh] heromodal flex flex-col gap-8 rounded-lg bg-green-90 px-7 py-8 bg-silver-opacity">
          <Parallax offsetMultiplier={2} scale={2.2}>
           <div data-parallax-offset="-5" className="flex flex-col">
             <div className="flexBetween pt-[0]">

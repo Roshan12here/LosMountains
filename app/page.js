@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className='max-w-[100%] overflow-hidden'>
       <ParallaxProvider >
       <Hero/>
       <BelowHero/>

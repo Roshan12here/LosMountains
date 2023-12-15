@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <Parallax >
     <div className='hero-section flex-col flex items-center min-h-screen' >
-      <header className=" w-[100%] sm:w-[100%] md:w-[70%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]  flex  justify-between p-4">
+      <header className=" w-[100%] justify-center items-center sm:w-[100%] md:w-[70%] lg:w-[60%] xl:w-[60%] 2xl:w-[60%]  flex   p-4">
         <div className="flex items-center ">
           <div className="flex sm:flex md:flex lg:flex  relative  xl:flex 2xl:flex rounded-full overflow-hidden mt-6 ml-[-1vw]">
             <Image

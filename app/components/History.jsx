@@ -12,13 +12,13 @@ const History = () => {
   01.
 </h1>
 <h1 className='text-[2rem] ml-[13vw] History font-extrabold  mt-[1vh] sm:md-[1vh] md:mt-[-2vh] lg:mt-[-10vh] xl:mt-[-10vh] 2xl:mt-[-10vh] sm:text-[1rem] md:text-[2rem] lg:text-[3rem] xl:text-[3rem]'>History</h1>
-      <p className='text-lg pt-[2px] ml-[13vw]  mt-3 font-extrabold History'>
+      <p className='text-lg pt-[2px] ml-[13vw]  mt-1 font-extrabold History'>
 Nestled in the serene esembrace of towering peaks, our mountain camp stands as a testament to adventure and tranquility. Established decad ago.embrace of towering peaks, our mountain camp stands  .</p>
         </div>
           </Parallax>
           <div className="bg-blue-950 bg-opacity-50 p-4">
   <div className="flex w-full mx-auto justify-center items-center gap-1vw">
-    <div className="w-[25%] sm:w-[100%] mb-4 sm:mb-0">
+    <div className="ml-[3vw] w-[25%] sm:w-[100%] mb-4 sm:mb-0">
       <Parallax offsetMultiplier={2} scale={2.2} className=''>
         <Image
           src="/last.jpg"

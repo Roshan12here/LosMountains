@@ -16,8 +16,8 @@ const BelowHero = () => {
           <h1 className='text-2xl mt-4 black'>LOSANGELES <br /> <span className='blue'>MOUNTAINS</span> </h1>
         </ul>
         <ul className='flex justify-between mb-[4vh]'>
-          <li className='text-blue-900 cursor-pointer transition-colors hidden sm:hidden md:flex lg:flex xl:flex 2xl:flex hover:text-blue-950 text-2xl underline duration-300 mr-12 mt-[6vh]'>01 History</li>
-          <li className='text-blue-900 cursor-pointer transition-colors hidden sm:text-green md:flex lg:flex xl:flex 2xl:flex hover:text-blue-950 text-2xl underline duration-300 mr-12 mt-[6vh]'>02 Team</li>
+          <li className='text-blue-900 cursor-pointer transition-colors hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex hover:text-blue-950 text-2xl underline duration-300 mr-12 mt-[6vh]'>01 History</li>
+          <li className='text-blue-900 cursor-pointer transition-colors hidden sm:text-green md:hidden lg:flex xl:flex 2xl:flex hover:text-blue-950 text-2xl underline duration-300 mr-12 mt-[6vh]'>02 Team</li>
         </ul>
       </div>
     </section>
